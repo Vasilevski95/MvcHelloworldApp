@@ -1,0 +1,102 @@
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Helpers.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Razor.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Razor.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Helpers.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Razor.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Razor.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.AssemblyReference.cache
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.CoreCompileInputs.cache
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.CopyComplete
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.dll.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Mvc.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Abstractions.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Container.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Mvc5.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Mvc.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Abstractions.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Container.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.dll.config
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.pdb
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Helpers.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Mvc.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Razor.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Abstractions.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Container.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Mvc5.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Helpers.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Mvc.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Razor.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Abstractions.pdb
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Container.pdb
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.AssemblyReference.cache
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.CoreCompileInputs.cache
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.CopyComplete
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.dll
+D:\Za Djordja\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.dll.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\4_BusinessObjectModel.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Helpers.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Mvc.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Razor.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Abstractions.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Container.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Mvc5.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Helpers.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Mvc.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.Razor.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Abstractions.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Container.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.AssemblyReference.cache
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.CoreCompileInputs.cache
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.CopyComplete
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.pdb

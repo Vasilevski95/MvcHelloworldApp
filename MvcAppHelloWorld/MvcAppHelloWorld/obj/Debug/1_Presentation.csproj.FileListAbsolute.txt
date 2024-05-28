@@ -1,0 +1,403 @@
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.dll.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.exe
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.exe.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.rsp
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.exe
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.exe.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.rsp
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.AppContext.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Collections.Immutable.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Console.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Globalization.Calendars.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.Compression.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.FileSystem.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Net.Http.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Net.Sockets.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Reflection.Metadata.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.ValueTuple.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XPath.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.exe
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.exe.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.rsp
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\VBCSCompiler.exe
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\VBCSCompiler.exe.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.Web.Infrastructure.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Newtonsoft.Json.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Threading.Tasks.Extensions.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Helpers.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Mvc.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Optimization.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Razor.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Deployment.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Razor.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Abstractions.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Container.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Mvc5.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\WebGrease.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll.config
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Threading.Tasks.Extensions.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Helpers.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Mvc.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Optimization.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Razor.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Deployment.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Razor.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Newtonsoft.Json.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Abstractions.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Container.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.pdb
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.AssemblyReference.cache
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CoreCompileInputs.cache
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CopyComplete
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.dll
+D:\ProjectsGIT\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.pdb
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.dll.config
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.pdb
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.exe
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.exe.config
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.rsp
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.exe
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.exe.config
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.rsp
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.AppContext.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Console.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.Compression.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Net.Http.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Net.Sockets.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.ValueTuple.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XPath.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.exe
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.exe.config
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.rsp
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\VBCSCompiler.exe
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Newtonsoft.Json.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Helpers.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Mvc.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Optimization.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Razor.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Deployment.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Razor.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Abstractions.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Container.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Mvc5.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\WebGrease.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.pdb
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll.config
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.pdb
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll.config
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.pdb
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll.config
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Helpers.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Mvc.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Optimization.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Razor.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Deployment.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Razor.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Newtonsoft.Json.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Abstractions.pdb
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Container.pdb
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.pdb
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.AssemblyReference.cache
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CoreCompileInputs.cache
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CopyComplete
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.dll
+C:\Users\apetras\Desktop\Backup\MvcAppHelloWorld\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.pdb
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.dll.config
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.pdb
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.exe
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.exe.config
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.rsp
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.exe
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.exe.config
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.rsp
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.AppContext.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Collections.Immutable.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Console.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Globalization.Calendars.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.Compression.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.FileSystem.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Net.Http.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Net.Sockets.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Reflection.Metadata.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.ValueTuple.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XPath.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.exe
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.exe.config
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.rsp
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\VBCSCompiler.exe
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\VBCSCompiler.exe.config
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.Web.Infrastructure.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Newtonsoft.Json.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Threading.Tasks.Extensions.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Helpers.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Mvc.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Optimization.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Razor.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Deployment.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Razor.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Abstractions.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Container.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Mvc5.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\WebGrease.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.pdb
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll.config
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.pdb
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll.config
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.pdb
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll.config
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Threading.Tasks.Extensions.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Helpers.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Mvc.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Optimization.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Razor.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Deployment.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Razor.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Newtonsoft.Json.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Abstractions.pdb
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Container.pdb
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.pdb
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.AssemblyReference.cache
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CoreCompileInputs.cache
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CopyComplete
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.dll
+D:\Za Djordja\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\MvcAppHelloWorld.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.exe
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.exe.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csc.rsp
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.exe
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.exe.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\csi.rsp
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.AppContext.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Collections.Immutable.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Console.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Globalization.Calendars.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.Compression.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.FileSystem.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Net.Http.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Net.Sockets.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Reflection.Metadata.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.ValueTuple.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XPath.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.exe
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.exe.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\vbc.rsp
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\VBCSCompiler.exe
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\roslyn\VBCSCompiler.exe.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.Web.Infrastructure.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Newtonsoft.Json.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Threading.Tasks.Extensions.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Helpers.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Mvc.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Optimization.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Razor.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Deployment.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Razor.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Abstractions.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Container.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Mvc5.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\WebGrease.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Threading.Tasks.Extensions.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Helpers.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Mvc.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Optimization.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.Razor.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Deployment.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Web.WebPages.Razor.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Newtonsoft.Json.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Abstractions.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Unity.Container.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.AssemblyReference.cache
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CoreCompileInputs.cache
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CopyComplete
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.pdb
