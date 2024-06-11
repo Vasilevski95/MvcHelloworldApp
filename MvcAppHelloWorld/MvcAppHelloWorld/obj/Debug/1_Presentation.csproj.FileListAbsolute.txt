@@ -401,3 +401,5 @@ C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloW
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CopyComplete
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\AutoMapper.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\AutoMapper.xml

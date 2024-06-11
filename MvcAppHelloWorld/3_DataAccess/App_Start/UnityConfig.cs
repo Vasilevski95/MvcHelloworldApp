@@ -1,5 +1,6 @@
 using System.Web.Mvc;
 using Unity;
+using Unity.Lifetime;
 using Unity.Mvc5;
 
 namespace _3_DataAccess
@@ -8,13 +9,10 @@ namespace _3_DataAccess
     {
         public static void RegisterComponents()
         {
-			var container = new UnityContainer();
+            var container = new UnityContainer();
             
-            // register all your components with the container here
-            // it is NOT necessary to register your controllers
-            
-            // e.g. container.RegisterType<ITestService, TestService>();
-            
+            container.RegisterType<TuxContext>(new HierarchicalLifetimeManager());
+
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
         }
     }

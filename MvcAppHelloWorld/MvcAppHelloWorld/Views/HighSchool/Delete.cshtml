@@ -1,0 +1,70 @@
+@model _4_BusinessObjectModel.HighSchoolLearner
+
+@{
+    ViewBag.Title = "Delete High School Learner";
+}
+
+<h2>Delete High School Learner</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>HighSchoolLearner</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SchoolName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SchoolName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfEntry)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateOfEntry)
+        </dd>
+    </dl>
+    
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <input type="submit" value="Delete" class="btn btn-danger" />
+    }
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+</div>
