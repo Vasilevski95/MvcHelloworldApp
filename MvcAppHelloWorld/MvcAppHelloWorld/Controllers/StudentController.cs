@@ -1,29 +1,28 @@
+using MvcAppHelloWorld.ApplicationService.StudentAppService;
+using MvcAppHelloWorld.ViewModels;
 using System;
-using System.Text.RegularExpressions;
 using System.Web.Mvc;
-using BusinessLayer.Student;
-using _4_BusinessObjectModel;
 
 namespace MvcAppHelloWorld.Controllers
 {
     public class StudentController : Controller
     {
-        private readonly IStudentService _studentService;
+        private readonly IStudentAppService _studentAppService;
 
-        public StudentController(IStudentService studentService)
+        public StudentController(IStudentAppService studentAppService)
         {
-            _studentService = studentService;
+            _studentAppService = studentAppService;
         }
 
         public ActionResult Index()
         {
-            var students = _studentService.GetAllStudentLearners();
+            var students = _studentAppService.GetAllStudentLearners();
             return View(students);
         }
         
         public ActionResult Search(string searchTerm)
         {
-            var students = _studentService.SearchStudentLearners(searchTerm);
+            var students = _studentAppService.SearchStudentLearners(searchTerm);
             return View("Index", students);
         }
 
@@ -33,21 +32,16 @@ namespace MvcAppHelloWorld.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(StudentLearner studentLearner)
+        public ActionResult Create(StudentViewModel studentLearner)
         {
-            if (!IsValidEmail(studentLearner.Email))
-            {
-                ModelState.AddModelError("Email", "Invalid email format.");
-            }
-
             if (!ModelState.IsValid) return View(studentLearner);
-            _studentService.AddStudentLearner(studentLearner);
+            _studentAppService.AddStudentLearner(studentLearner);
             return RedirectToAction("Index");
         }
 
         public ActionResult Delete(Guid id)
         {
-            var student = _studentService.GetStudentLearnerById(id);
+            var student = _studentAppService.GetStudentLearnerById(id);
             if (student == null)
             {
                 return HttpNotFound();
@@ -58,13 +52,13 @@ namespace MvcAppHelloWorld.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(Guid id)
         {
-            _studentService.DeleteStudentLearner(id);
+            _studentAppService.DeleteStudentLearner(id);
             return RedirectToAction("Index");
         }
         
         public ActionResult EditDetails(Guid id, bool edit = false)
         {
-            var learner = _studentService.GetStudentLearnerById(id);
+            var learner = _studentAppService.GetStudentLearnerById(id);
             if (learner == null)
             {
                 return HttpNotFound();
@@ -77,26 +71,22 @@ namespace MvcAppHelloWorld.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Save(StudentLearner studentLearner)
+        public ActionResult Save(StudentViewModel studentLearner)
         {
-            if (!IsValidEmail(studentLearner.Email))
+            if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("Email", "Invalid email format.");
-            }
-            if (ModelState.IsValid)
-            {
-                _studentService.UpdateStudentLearner(studentLearner);
-                return RedirectToAction("EditDetails", new { id = studentLearner.Id });
+                ViewBag.Edit = true;
+                ViewBag.ReadOnly = false;
+                return View("EditDetails", studentLearner);
             }
 
-            ViewBag.Edit = true;
-            ViewBag.ReadOnly = false;
-            return View("Details", studentLearner);
+            _studentAppService.UpdateStudentLearner(studentLearner);
+            return RedirectToAction("EditDetails", new { id = studentLearner.Id });
         }
-        
+
         public ActionResult DownloadDetails(Guid id)
         {
-            var learner = _studentService.GetStudentLearnerById(id);
+            var learner = _studentAppService.GetStudentLearnerById(id);
             if (learner == null)
             {
                 return HttpNotFound();
@@ -115,15 +105,6 @@ namespace MvcAppHelloWorld.Controllers
             var stream = new System.IO.MemoryStream(byteArray);
 
             return File(stream, "text/plain", $"{learner.Name} {learner.Surname} details.txt");
-        }
-
-        private static bool IsValidEmail(string email)
-        {
-            if (string.IsNullOrEmpty(email))
-                return true;
-
-            const string emailRegex = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
-            return Regex.IsMatch(email, emailRegex);
         }
     }
 }
