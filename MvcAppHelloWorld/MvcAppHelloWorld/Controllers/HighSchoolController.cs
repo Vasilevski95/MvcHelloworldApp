@@ -1,33 +1,30 @@
+using MvcAppHelloWorld.ApplicationService.HighSchoolAppService;
+using MvcAppHelloWorld.ViewModels;
 using System;
-using System.Text.RegularExpressions;
 using System.Web.Mvc;
-using BusinessLayer.HighSchool;
-using _4_BusinessObjectModel;
 
 namespace MvcAppHelloWorld.Controllers
 {
     public class HighSchoolController : Controller
     {
-        private readonly IHighSchoolService _highSchoolService;
+        private readonly IHighSchoolAppService _highSchoolAppService;
 
-        public HighSchoolController(IHighSchoolService highSchoolService)
+        public HighSchoolController(IHighSchoolAppService highSchoolAppService)
         {
-            _highSchoolService = highSchoolService;
+            _highSchoolAppService = highSchoolAppService;
         }
 
         public ActionResult Index()
         {
-            var learners = _highSchoolService.GetAllHighSchoolLearners();
+            var learners = _highSchoolAppService.GetAllHighSchoolLearners();
             return View(learners);
         }
 
-        
         public ActionResult Search(string searchTerm)
         {
-            var learners = _highSchoolService.SearchHighSchoolLearners(searchTerm);
+            var learners = _highSchoolAppService.SearchHighSchoolLearners(searchTerm);
             return View("Index", learners);
         }
-
 
         public ActionResult Create()
         {
@@ -35,21 +32,16 @@ namespace MvcAppHelloWorld.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(HighSchoolLearner highSchoolLearner)
+        public ActionResult Create(HighSchoolViewModel highSchoolLearner)
         {
-            if (!IsValidEmail(highSchoolLearner.Email))
-            {
-                ModelState.AddModelError("Email", "Invalid email format.");
-            }
-
             if (!ModelState.IsValid) return View(highSchoolLearner);
-            _highSchoolService.AddHighSchoolLearner(highSchoolLearner);
+            _highSchoolAppService.AddHighSchoolLearner(highSchoolLearner);
             return RedirectToAction("Index");
         }
 
         public ActionResult Delete(Guid id)
         {
-            var learner = _highSchoolService.GetHighSchoolLearnerById(id);
+            var learner = _highSchoolAppService.GetHighSchoolLearnerById(id);
             if (learner == null)
             {
                 return HttpNotFound();
@@ -60,13 +52,13 @@ namespace MvcAppHelloWorld.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(Guid id)
         {
-            _highSchoolService.DeleteHighSchoolLearner(id);
+            _highSchoolAppService.DeleteHighSchoolLearner(id);
             return RedirectToAction("Index");
         }
-        
+
         public ActionResult EditDetails(Guid id, bool edit = false)
         {
-            var learner = _highSchoolService.GetHighSchoolLearnerById(id);
+            var learner = _highSchoolAppService.GetHighSchoolLearnerById(id);
             if (learner == null)
             {
                 return HttpNotFound();
@@ -76,29 +68,25 @@ namespace MvcAppHelloWorld.Controllers
             ViewBag.ReadOnly = !edit;
             return View(learner);
         }
-        
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Save(HighSchoolLearner highSchoolLearner)
+        public ActionResult Save(HighSchoolViewModel highSchoolLearner)
         {
-            if (!IsValidEmail(highSchoolLearner.Email))
+            if (!ModelState.IsValid)
             {
-                ModelState.AddModelError("Email", "Invalid email format.");
-            }
-            if (ModelState.IsValid)
-            {
-                _highSchoolService.UpdateHighSchoolLearner(highSchoolLearner);
-                return RedirectToAction("EditDetails", new { id = highSchoolLearner.Id });
+                ViewBag.Edit = true;
+                ViewBag.ReadOnly = false;
+                return View("EditDetails", highSchoolLearner);
             }
 
-            ViewBag.Edit = true;
-            ViewBag.ReadOnly = false;
-            return View("Details", highSchoolLearner);
+            _highSchoolAppService.UpdateHighSchoolLearner(highSchoolLearner);
+            return RedirectToAction("EditDetails", new { id = highSchoolLearner.Id });
         }
-        
+
         public ActionResult DownloadDetails(Guid id)
         {
-            var learner = _highSchoolService.GetHighSchoolLearnerById(id);
+            var learner = _highSchoolAppService.GetHighSchoolLearnerById(id);
             if (learner == null)
             {
                 return HttpNotFound();
@@ -117,15 +105,6 @@ namespace MvcAppHelloWorld.Controllers
             var stream = new System.IO.MemoryStream(byteArray);
 
             return File(stream, "text/plain", $"{learner.Name} {learner.Surname} details.txt");
-        }
-
-        private static bool IsValidEmail(string email)
-        {
-            if (string.IsNullOrEmpty(email))
-                return true;
-
-            const string emailRegex = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
-            return Regex.IsMatch(email, emailRegex);
         }
     }
 }

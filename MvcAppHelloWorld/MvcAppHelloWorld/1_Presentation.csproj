@@ -142,6 +142,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationService\HighSchoolAppService\HighSchoolAppService.cs" />
+    <Compile Include="ApplicationService\HighSchoolAppService\IHighSchoolAppService.cs" />
+    <Compile Include="ApplicationService\StudentAppService\IStudentAppService.cs" />
+    <Compile Include="ApplicationService\StudentAppService\StudentAppService.cs" />
     <Compile Include="App_Start\AutomappingProfile.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -154,6 +158,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\HighSchoolViewModel.cs" />
+    <Compile Include="ViewModels\StudentViewModel.cs" />
+    <Compile Include="ViewModels\UserViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
