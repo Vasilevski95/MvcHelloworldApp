@@ -88,11 +88,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="Base\IUserRepository.cs" />
+    <Compile Include="Base\UserRepository.cs" />
+    <Compile Include="Generic\GenericRepository.cs" />
+    <Compile Include="Generic\IGenericRepository.cs" />
     <Compile Include="HighSchool\HighSchoolLearnerRepository.cs" />
     <Compile Include="HighSchool\IHighSchoolLearnerRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Role\IRoleRepository.cs" />
-    <Compile Include="Role\RoleRepository.cs" />
     <Compile Include="Student\IStudentLearnerRepository.cs" />
     <Compile Include="Student\StudentLearnerRepository.cs" />
     <Compile Include="TuxContext.cs" />
@@ -106,9 +108,6 @@
       <Project>{a4997c25-28fe-4306-a496-2367031ef48a}</Project>
       <Name>4_BusinessObjectModel</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

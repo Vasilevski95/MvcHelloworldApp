@@ -142,6 +142,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationService\Generic\GenericAppService.cs" />
+    <Compile Include="ApplicationService\Generic\IGenericAppService.cs" />
     <Compile Include="ApplicationService\HighSchoolAppService\HighSchoolAppService.cs" />
     <Compile Include="ApplicationService\HighSchoolAppService\IHighSchoolAppService.cs" />
     <Compile Include="ApplicationService\StudentAppService\IStudentAppService.cs" />
@@ -151,6 +153,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="Controllers\GenericController.cs" />
     <Compile Include="Controllers\HighSchoolController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
@@ -208,6 +211,7 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ApplicationService\Base\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>

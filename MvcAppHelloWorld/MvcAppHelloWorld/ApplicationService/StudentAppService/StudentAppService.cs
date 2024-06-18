@@ -1,56 +1,26 @@
 using AutoMapper;
 using MvcAppHelloWorld.ViewModels;
 using _4_BusinessObjectModel;
-using BusinessLayer.Student;
-using System;
-using System.Collections.Generic;
+using BusinessLayer.Base;
+using MvcAppHelloWorld.ApplicationService.Generic;
 
 namespace MvcAppHelloWorld.ApplicationService.StudentAppService
 {
-    public class StudentAppService : IStudentAppService
+    public class StudentAppService : GenericAppService<StudentLearner, StudentViewModel>, IStudentAppService
     {
-        private readonly IStudentService _studentService;
-        private readonly IMapper _mapper;
+        public StudentAppService(IGenericService<StudentLearner> studentService, IMapper mapper)
+            : base(studentService, mapper) { }
 
-        public StudentAppService(IStudentService studentService, IMapper mapper)
+        public override string GenerateDetailsContent(StudentViewModel item)
         {
-            _studentService = studentService;
-            _mapper = mapper;
-        }
-
-        public void AddStudentLearner(StudentViewModel studentLearner)
-        {
-            var learner = _mapper.Map<StudentLearner>(studentLearner);
-            _studentService.AddStudentLearner(learner);
-        }
-
-        public void UpdateStudentLearner(StudentViewModel studentLearner)
-        {
-            var learner = _mapper.Map<StudentLearner>(studentLearner);
-            _studentService.UpdateStudentLearner(learner);
-        }
-
-        public void DeleteStudentLearner(Guid id)
-        {
-            _studentService.DeleteStudentLearner(id);
-        }
-
-        public StudentViewModel GetStudentLearnerById(Guid id)
-        {
-            var learner = _studentService.GetStudentLearnerById(id);
-            return _mapper.Map<StudentViewModel>(learner);
-        }
-
-        public IEnumerable<StudentViewModel> GetAllStudentLearners()
-        {
-            var learners = _studentService.GetAllStudentLearners();
-            return _mapper.Map<IEnumerable<StudentViewModel>>(learners);
-        }
-        
-        public IEnumerable<StudentViewModel> SearchStudentLearners(string searchTerm)
-        {
-            var learners = _studentService.SearchStudentLearners(searchTerm);
-            return _mapper.Map<IEnumerable<StudentViewModel>>(learners);
+            return $"Name: {item.Name}\n" +
+                   $"Surname: {item.Surname}\n" +
+                   $"Date of Birth: {item.DateOfBirth:dd/MM/yyyy}\n" +
+                   $"Email: {item.Email}\n" +
+                   $"Phone: {item.Phone}\n" +
+                   $"Address: {item.Address}\n" +
+                   $"College Name: {item.CollegeName}\n" +
+                   $"Generation: {item.Generation}\n";
         }
     }
 }

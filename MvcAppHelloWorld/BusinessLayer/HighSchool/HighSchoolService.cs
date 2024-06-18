@@ -1,47 +1,11 @@
-using System;
+using _3_DataAccess.Generic;
 using _4_BusinessObjectModel;
-using _3_DataAccess.HighSchool;
-using System.Collections.Generic;
+using BusinessLayer.Generic;
 
 namespace BusinessLayer.HighSchool
 {
-    public class HighSchoolService : IHighSchoolService
+    public class HighSchoolService : GenericService<HighSchoolLearner>, IHighSchoolService
     {
-        private readonly IHighSchoolLearnerRepository _repository;
-
-        public HighSchoolService(IHighSchoolLearnerRepository repository)
-        {
-            _repository = repository;
-        }
-
-        public void AddHighSchoolLearner(HighSchoolLearner highSchoolLearner)
-        {
-            _repository.Add(highSchoolLearner);
-        }
-
-        public void UpdateHighSchoolLearner(HighSchoolLearner highSchoolLearner)
-        {
-            _repository.Update(highSchoolLearner);
-        }
-
-        public void DeleteHighSchoolLearner(Guid id)
-        {
-            _repository.Delete(id);
-        }
-
-        public HighSchoolLearner GetHighSchoolLearnerById(Guid id)
-        {
-            return _repository.GetById(id);
-        }
-
-        public List<HighSchoolLearner> GetAllHighSchoolLearners()
-        {
-            return _repository.GetAll();
-        }
-        
-        public List<HighSchoolLearner> SearchHighSchoolLearners(string searchTerm)
-        {
-            return _repository.SearchHighSchoolLearners(searchTerm);
-        }
+        public HighSchoolService(IGenericRepository<HighSchoolLearner> repository) : base(repository) { }
     }
 }
