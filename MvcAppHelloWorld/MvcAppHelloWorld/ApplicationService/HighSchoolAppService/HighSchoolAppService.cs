@@ -1,56 +1,26 @@
 using AutoMapper;
 using MvcAppHelloWorld.ViewModels;
 using _4_BusinessObjectModel;
-using BusinessLayer.HighSchool;
-using System;
-using System.Collections.Generic;
+using BusinessLayer.Base;
+using MvcAppHelloWorld.ApplicationService.Generic;
 
 namespace MvcAppHelloWorld.ApplicationService.HighSchoolAppService
 {
-    public class HighSchoolAppService : IHighSchoolAppService
+    public class HighSchoolAppService : GenericAppService<HighSchoolLearner, HighSchoolViewModel>, IHighSchoolAppService
     {
-        private readonly IHighSchoolService _highSchoolService;
-        private readonly IMapper _mapper;
+        public HighSchoolAppService(IGenericService<HighSchoolLearner> highSchoolService, IMapper mapper)
+            : base(highSchoolService, mapper) { }
 
-        public HighSchoolAppService(IHighSchoolService highSchoolService, IMapper mapper)
+        public override string GenerateDetailsContent(HighSchoolViewModel item)
         {
-            _highSchoolService = highSchoolService;
-            _mapper = mapper;
-        }
-
-        public void AddHighSchoolLearner(HighSchoolViewModel highSchoolLearner)
-        {
-            var learner = _mapper.Map<HighSchoolLearner>(highSchoolLearner);
-            _highSchoolService.AddHighSchoolLearner(learner);
-        }
-
-        public void UpdateHighSchoolLearner(HighSchoolViewModel highSchoolLearner)
-        {
-            var learner = _mapper.Map<HighSchoolLearner>(highSchoolLearner);
-            _highSchoolService.UpdateHighSchoolLearner(learner);
-        }
-
-        public void DeleteHighSchoolLearner(Guid id)
-        {
-            _highSchoolService.DeleteHighSchoolLearner(id);
-        }
-
-        public HighSchoolViewModel GetHighSchoolLearnerById(Guid id)
-        {
-            var learner = _highSchoolService.GetHighSchoolLearnerById(id);
-            return _mapper.Map<HighSchoolViewModel>(learner);
-        }
-
-        public List<HighSchoolViewModel> GetAllHighSchoolLearners()
-        {
-            var learners = _highSchoolService.GetAllHighSchoolLearners();
-            return _mapper.Map<List<HighSchoolViewModel>>(learners);
-        }
-        
-        public List<HighSchoolViewModel> SearchHighSchoolLearners(string searchTerm)
-        {
-            var learners = _highSchoolService.SearchHighSchoolLearners(searchTerm);
-            return _mapper.Map<List<HighSchoolViewModel>>(learners);
+            return $"Name: {item.Name}\n" +
+                   $"Surname: {item.Surname}\n" +
+                   $"Date of Birth: {item.DateOfBirth:dd/MM/yyyy}\n" +
+                   $"Email: {item.Email}\n" +
+                   $"Phone: {item.Phone}\n" +
+                   $"Address: {item.Address}\n" +
+                   $"School Name: {item.SchoolName}\n" +
+                   $"Date of Entry: {item.DateOfEntry:dd/MM/yyyy}\n";
         }
     }
 }

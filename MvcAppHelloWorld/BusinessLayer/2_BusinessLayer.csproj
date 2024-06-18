@@ -88,6 +88,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="Generic\GenericService.cs" />
+    <Compile Include="Generic\IGenericService.cs" />
     <Compile Include="HighSchool\HighSchoolService.cs" />
     <Compile Include="HighSchool\IHighSchoolService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

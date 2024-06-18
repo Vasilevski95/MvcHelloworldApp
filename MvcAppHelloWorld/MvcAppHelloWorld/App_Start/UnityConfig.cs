@@ -6,9 +6,13 @@ using MvcAppHelloWorld.ApplicationService.HighSchoolAppService;
 using MvcAppHelloWorld.ApplicationService.StudentAppService;
 using BusinessLayer.HighSchool;
 using BusinessLayer.Student;
-using _3_DataAccess;
+using _3_DataAccess.Generic;
 using _3_DataAccess.HighSchool;
 using _3_DataAccess.Student;
+using BusinessLayer.Base;
+using _4_BusinessObjectModel;
+using MvcAppHelloWorld.ApplicationService.Generic;
+using MvcAppHelloWorld.ViewModels;
 
 namespace MvcAppHelloWorld
 {
@@ -18,14 +22,14 @@ namespace MvcAppHelloWorld
         {
             var container = new UnityContainer();
 
-            container.RegisterType<IHighSchoolLearnerRepository, HighSchoolLearnerRepository>();
-            container.RegisterType<IStudentLearnerRepository, StudentLearnerRepository>();
-            container.RegisterType<IRoleRepository, RoleRepository>();
-            
-            container.RegisterType<IHighSchoolService, HighSchoolService>();
-            container.RegisterType<IStudentService, StudentService>();
-            container.RegisterType<IHighSchoolAppService, HighSchoolAppService>();
-            container.RegisterType<IStudentAppService, StudentAppService>();
+            container.RegisterType<IGenericRepository<HighSchoolLearner>, HighSchoolLearnerRepository>();
+            container.RegisterType<IGenericRepository<StudentLearner>, StudentLearnerRepository>();
+
+            container.RegisterType<IGenericService<HighSchoolLearner>, HighSchoolService>();
+            container.RegisterType<IGenericService<StudentLearner>, StudentService>();
+
+            container.RegisterType<IGenericAppService<HighSchoolViewModel>, HighSchoolAppService>();
+            container.RegisterType<IGenericAppService<StudentViewModel>, StudentAppService>();
 
             var config = new MapperConfiguration(cfg =>
             {
