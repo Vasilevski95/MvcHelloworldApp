@@ -1,4 +1,4 @@
-@model List<MvcAppHelloWorld.ViewModels.HighSchoolViewModel>
+@model List<MvcAppHelloWorld.QueryViewModel.HighSchoolQueryViewModel>
 
 @{
 ViewBag.Title = "High School Learners";
@@ -21,9 +21,6 @@ ViewBag.Title = "High School Learners";
         <th>Name</th>
         <th>Surname</th>
         <th>Date of birth</th>
-        <th>Email</th>
-        <th>Phone</th>
-        <th>Address</th>
         <th>School name</th>
         <th>Date of entry</th>
         <th></th>
@@ -36,14 +33,11 @@ ViewBag.Title = "High School Learners";
         <td>@learner.Name</td>
         <td>@learner.Surname</td>
         <td>@learner.DateOfBirth.ToString("dd/MM/yyyy")</td>
-        <td>@learner.Email</td>
-        <td>@learner.Phone</td>
-        <td>@learner.Address</td>
         <td>@learner.SchoolName</td>
         <td>@learner.DateOfEntry.ToString("dd/MM/yyyy")</td>
         <td>
-            @Html.ActionLink("Details", "EditDetails", new { id = learner.Id }, new { @class = "btn btn-info" })
-            @Html.ActionLink("Delete", "Delete", new { id = learner.Id }, new { @class = "btn btn-danger" })
+            @Html.ActionLink("Details", "EditDetails", new { id = learner.UserId }, new { @class = "btn btn-info" })
+            @Html.ActionLink("Delete", "Delete", new { id = learner.UserId }, new { @class = "btn btn-danger" })
         </td>
     </tr>
     }

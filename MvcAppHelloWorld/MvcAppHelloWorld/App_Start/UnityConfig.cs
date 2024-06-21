@@ -1,17 +1,22 @@
+// 1_Presentation/App_Start/UnityConfig.cs
 using System.Web.Mvc;
 using AutoMapper;
 using Unity;
 using Unity.Mvc5;
-using MvcAppHelloWorld.ApplicationService.HighSchoolAppService;
-using MvcAppHelloWorld.ApplicationService.StudentAppService;
 using BusinessLayer.HighSchool;
 using BusinessLayer.Student;
+using _3_DataAccess.QueryRepository;
 using _3_DataAccess.Generic;
 using _3_DataAccess.HighSchool;
+using _3_DataAccess.QueryModels;
 using _3_DataAccess.Student;
-using BusinessLayer.Base;
 using _4_BusinessObjectModel;
+using BusinessLayer.Base;
+using BusinessLayer.Generic;
 using MvcAppHelloWorld.ApplicationService.Generic;
+using MvcAppHelloWorld.ApplicationService.HighSchoolAppService;
+using MvcAppHelloWorld.ApplicationService.StudentAppService;
+using MvcAppHelloWorld.QueryViewModel;
 using MvcAppHelloWorld.ViewModels;
 
 namespace MvcAppHelloWorld
@@ -28,8 +33,17 @@ namespace MvcAppHelloWorld
             container.RegisterType<IGenericService<HighSchoolLearner>, HighSchoolService>();
             container.RegisterType<IGenericService<StudentLearner>, StudentService>();
 
-            container.RegisterType<IGenericAppService<HighSchoolViewModel>, HighSchoolAppService>();
-            container.RegisterType<IGenericAppService<StudentViewModel>, StudentAppService>();
+            container.RegisterType<IHighSchoolAppService, HighSchoolAppService>();
+            container.RegisterType<IStudentAppService, StudentAppService>();
+
+            container.RegisterType<IGenericRepository<HighSchoolQueryModel>, HighSchoolQueryRepository>();
+            container.RegisterType<IGenericRepository<StudentQueryModel>, StudentQueryRepository>();
+
+            container.RegisterType<IGenericService<HighSchoolQueryModel>, GenericService<HighSchoolQueryModel>>();
+            container.RegisterType<IGenericService<StudentQueryModel>, GenericService<StudentQueryModel>>();
+
+            container.RegisterType<IGenericAppService<HighSchoolViewModel, HighSchoolQueryViewModel>, GenericAppService<HighSchoolLearner, HighSchoolViewModel, HighSchoolQueryModel, HighSchoolQueryViewModel>>();
+            container.RegisterType<IGenericAppService<StudentViewModel, StudentQueryViewModel>, GenericAppService<StudentLearner, StudentViewModel, StudentQueryModel, StudentQueryViewModel>>();
 
             var config = new MapperConfiguration(cfg =>
             {

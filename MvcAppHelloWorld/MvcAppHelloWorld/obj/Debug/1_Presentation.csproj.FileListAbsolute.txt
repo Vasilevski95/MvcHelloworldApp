@@ -355,6 +355,7 @@ C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloW
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\3_DataAccess.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\Antlr3.Runtime.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\AutoMapper.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.dll
@@ -380,6 +381,7 @@ C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloW
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\4_BusinessObjectModel.dll.config
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.pdb
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\BusinessLayer.dll.config
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\AutoMapper.xml
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.xml
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\EntityFramework.SqlServer.xml
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\System.Runtime.CompilerServices.Unsafe.xml
@@ -401,5 +403,3 @@ C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloW
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\1_Presentation.csproj.CopyComplete
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\obj\Debug\MvcAppHelloWorld.pdb
-C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\AutoMapper.dll
-C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\MvcAppHelloWorld\bin\AutoMapper.xml

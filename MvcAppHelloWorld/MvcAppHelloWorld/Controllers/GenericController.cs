@@ -1,14 +1,17 @@
+// 1_Presentation/Controllers/GenericController.cs
 using System;
 using System.Web.Mvc;
 using MvcAppHelloWorld.ApplicationService.Generic;
 
 namespace MvcAppHelloWorld.Controllers
 {
-    public class GenericController<TViewModel> : Controller where TViewModel : class
+    public class GenericController<TViewModel, TQueryViewModel> : Controller
+        where TViewModel : class
+        where TQueryViewModel : class
     {
-        private readonly IGenericAppService<TViewModel> _appService;
+        private readonly IGenericAppService<TViewModel, TQueryViewModel> _appService;
 
-        public GenericController(IGenericAppService<TViewModel> appService)
+        public GenericController(IGenericAppService<TViewModel, TQueryViewModel> appService)
         {
             _appService = appService;
         }

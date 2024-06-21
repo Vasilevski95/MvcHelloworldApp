@@ -1,15 +1,21 @@
+using _3_DataAccess.QueryModels;
 using AutoMapper;
 using MvcAppHelloWorld.ViewModels;
 using _4_BusinessObjectModel;
 using BusinessLayer.Base;
 using MvcAppHelloWorld.ApplicationService.Generic;
+using MvcAppHelloWorld.QueryViewModel;
 
 namespace MvcAppHelloWorld.ApplicationService.HighSchoolAppService
 {
-    public class HighSchoolAppService : GenericAppService<HighSchoolLearner, HighSchoolViewModel>, IHighSchoolAppService
+    public class HighSchoolAppService : GenericAppService<HighSchoolLearner, HighSchoolViewModel, HighSchoolQueryModel, HighSchoolQueryViewModel>, IHighSchoolAppService
     {
-        public HighSchoolAppService(IGenericService<HighSchoolLearner> highSchoolService, IMapper mapper)
-            : base(highSchoolService, mapper) { }
+        public HighSchoolAppService(IGenericService<HighSchoolLearner> highSchoolService, 
+            IGenericService<HighSchoolQueryModel> queryService,
+            IMapper mapper)
+            : base(highSchoolService, queryService, mapper)
+        {
+        }
 
         public override string GenerateDetailsContent(HighSchoolViewModel item)
         {
