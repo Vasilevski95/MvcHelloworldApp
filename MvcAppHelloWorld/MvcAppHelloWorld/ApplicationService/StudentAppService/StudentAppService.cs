@@ -1,15 +1,19 @@
+using _3_DataAccess.QueryModels;
 using AutoMapper;
 using MvcAppHelloWorld.ViewModels;
 using _4_BusinessObjectModel;
 using BusinessLayer.Base;
 using MvcAppHelloWorld.ApplicationService.Generic;
+using MvcAppHelloWorld.QueryViewModel;
 
 namespace MvcAppHelloWorld.ApplicationService.StudentAppService
 {
-    public class StudentAppService : GenericAppService<StudentLearner, StudentViewModel>, IStudentAppService
+    public class StudentAppService : GenericAppService<StudentLearner, StudentViewModel, StudentQueryModel, StudentQueryViewModel>, IStudentAppService
     {
-        public StudentAppService(IGenericService<StudentLearner> studentService, IMapper mapper)
-            : base(studentService, mapper) { }
+        public StudentAppService(IGenericService<StudentLearner> studentService, 
+            IGenericService<StudentQueryModel> queryService,
+            IMapper mapper)
+            : base(studentService, queryService, mapper) { }
 
         public override string GenerateDetailsContent(StudentViewModel item)
         {

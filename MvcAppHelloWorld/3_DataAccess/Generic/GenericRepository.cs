@@ -8,7 +8,7 @@ namespace _3_DataAccess.Generic
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
-        private readonly TuxContext _context;
+        protected readonly TuxContext _context;
         protected readonly DbSet<TEntity> DbSet;
 
         public GenericRepository(TuxContext context)

@@ -1,3 +1,4 @@
+// 1_Presentation/ApplicationService/Generic/GenericAppService.cs
 using System;
 using System.Collections.Generic;
 using AutoMapper;
@@ -5,16 +6,22 @@ using BusinessLayer.Base;
 
 namespace MvcAppHelloWorld.ApplicationService.Generic
 {
-    public class GenericAppService<TEntity, TViewModel> : IGenericAppService<TViewModel>
+    public class GenericAppService<TEntity, TViewModel, TQueryModel, TQueryViewModel> : IGenericAppService<TViewModel, TQueryViewModel>
         where TEntity : class
         where TViewModel : class
+        where TQueryModel : class
+        where TQueryViewModel : class
     {
         private readonly IGenericService<TEntity> _service;
+        private readonly IGenericService<TQueryModel> _queryService;
         private readonly IMapper _mapper;
 
-        public GenericAppService(IGenericService<TEntity> service, IMapper mapper)
+        public GenericAppService(IGenericService<TEntity> service, 
+                                 IGenericService<TQueryModel> queryService,
+                                 IMapper mapper)
         {
             _service = service;
+            _queryService = queryService;
             _mapper = mapper;
         }
 
@@ -41,16 +48,16 @@ namespace MvcAppHelloWorld.ApplicationService.Generic
             return _mapper.Map<TViewModel>(entity);
         }
 
-        public List<TViewModel> GetAll()
+        public List<TQueryViewModel> GetAll()
         {
-            var entities = _service.GetAll();
-            return _mapper.Map<List<TViewModel>>(entities);
+            var queryModels = _queryService.GetAll();
+            return _mapper.Map<List<TQueryViewModel>>(queryModels);
         }
 
-        public List<TViewModel> Search(string searchTerm)
+        public List<TQueryViewModel> Search(string searchTerm)
         {
-            var entities = _service.Search(searchTerm);
-            return _mapper.Map<List<TViewModel>>(entities);
+            var queryModels = _queryService.Search(searchTerm);
+            return _mapper.Map<List<TQueryViewModel>>(queryModels);
         }
 
         public virtual string GenerateDetailsContent(TViewModel viewModel)
