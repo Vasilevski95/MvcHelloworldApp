@@ -1,4 +1,3 @@
-// 1_Presentation/ApplicationService/Generic/GenericAppService.cs
 using System;
 using System.Collections.Generic;
 using AutoMapper;

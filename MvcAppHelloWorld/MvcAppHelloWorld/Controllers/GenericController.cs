@@ -1,4 +1,3 @@
-// 1_Presentation/Controllers/GenericController.cs
 using System;
 using System.Web.Mvc;
 using MvcAppHelloWorld.ApplicationService.Generic;

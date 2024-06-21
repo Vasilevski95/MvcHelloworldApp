@@ -1,4 +1,3 @@
-// 1_Presentation/App_Start/UnityConfig.cs
 using System.Web.Mvc;
 using AutoMapper;
 using Unity;
@@ -27,24 +26,33 @@ namespace MvcAppHelloWorld
         {
             var container = new UnityContainer();
 
+            // Register command repositories
             container.RegisterType<IGenericRepository<HighSchoolLearner>, HighSchoolLearnerRepository>();
             container.RegisterType<IGenericRepository<StudentLearner>, StudentLearnerRepository>();
 
+            // Register command services
             container.RegisterType<IGenericService<HighSchoolLearner>, HighSchoolService>();
             container.RegisterType<IGenericService<StudentLearner>, StudentService>();
 
+            // Register command application services
             container.RegisterType<IHighSchoolAppService, HighSchoolAppService>();
             container.RegisterType<IStudentAppService, StudentAppService>();
 
+            // Register query repositories
             container.RegisterType<IGenericRepository<HighSchoolQueryModel>, HighSchoolQueryRepository>();
             container.RegisterType<IGenericRepository<StudentQueryModel>, StudentQueryRepository>();
+            container.RegisterType<IGenericRepository<RoleQueryModel>, RoleQueryRepository>();
 
+            // Register query services
             container.RegisterType<IGenericService<HighSchoolQueryModel>, GenericService<HighSchoolQueryModel>>();
             container.RegisterType<IGenericService<StudentQueryModel>, GenericService<StudentQueryModel>>();
+            container.RegisterType<IGenericService<RoleQueryModel>, GenericService<RoleQueryModel>>();
 
+            // Register query application services
             container.RegisterType<IGenericAppService<HighSchoolViewModel, HighSchoolQueryViewModel>, GenericAppService<HighSchoolLearner, HighSchoolViewModel, HighSchoolQueryModel, HighSchoolQueryViewModel>>();
             container.RegisterType<IGenericAppService<StudentViewModel, StudentQueryViewModel>, GenericAppService<StudentLearner, StudentViewModel, StudentQueryModel, StudentQueryViewModel>>();
 
+            // Register AutoMapper configuration
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile<AutoMappingProfile>();
