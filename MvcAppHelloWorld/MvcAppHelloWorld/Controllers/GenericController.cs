@@ -92,9 +92,9 @@ namespace MvcAppHelloWorld.Controllers
             {
                 return HttpNotFound();
             }
-
+            
             var content = _appService.GenerateDetailsContent(item);
-
+            
             var byteArray = System.Text.Encoding.UTF8.GetBytes(content);
             var stream = new System.IO.MemoryStream(byteArray);
 

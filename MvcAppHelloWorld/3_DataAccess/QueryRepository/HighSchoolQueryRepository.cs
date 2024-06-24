@@ -5,16 +5,16 @@ using System.Linq;
 
 namespace _3_DataAccess.QueryRepository
 {
-    public class HighSchoolQueryRepository : GenericRepository<HighSchoolQueryModel>, IGenericRepository<HighSchoolQueryModel>
+    public class HighSchoolQueryRepository : GenericRepository<HighSchoolQueryModel>
     {
         public HighSchoolQueryRepository(TuxContext context) : base(context) { }
 
         public override List<HighSchoolQueryModel> GetAll()
         {
             var query = @"
-        SELECT Id as UserId, Name, Surname, DateOfBirth, SchoolName, DateOfEntry
-        FROM t_users
-        WHERE Type = 'Highschool'";
+            SELECT Id as UserId, Name, Surname, DateOfBirth, SchoolName, DateOfEntry
+            FROM t_users
+            WHERE Type = 'Highschool'";
             return _context.Database.SqlQuery<HighSchoolQueryModel>(query).ToList();
         }
 
@@ -26,5 +26,4 @@ namespace _3_DataAccess.QueryRepository
                                        s.DateOfEntry.ToString().Contains(searchTerm)).ToList();
         }
     }
-
 }
