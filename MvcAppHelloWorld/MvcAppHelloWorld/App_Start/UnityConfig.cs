@@ -13,10 +13,10 @@ using _4_BusinessObjectModel;
 using BusinessLayer.Base;
 using BusinessLayer.Generic;
 using MvcAppHelloWorld.ApplicationService.Generic;
-using MvcAppHelloWorld.ApplicationService.HighSchoolAppService;
-using MvcAppHelloWorld.ApplicationService.StudentAppService;
 using MvcAppHelloWorld.QueryViewModel;
 using MvcAppHelloWorld.ViewModels;
+using MvcAppHelloWorld.ApplicationService.HighSchoolAppService;
+using MvcAppHelloWorld.ApplicationService.StudentAppService;
 
 namespace MvcAppHelloWorld
 {
@@ -32,8 +32,6 @@ namespace MvcAppHelloWorld
             container.RegisterType<IGenericService<HighSchoolLearner>, HighSchoolService>();
             container.RegisterType<IGenericService<StudentLearner>, StudentService>();
 
-            container.RegisterType<IGenericAppService<StudentViewModel, StudentQueryViewModel>, StudentAppService>();
-
             container.RegisterType<IGenericRepository<HighSchoolQueryModel>, HighSchoolQueryRepository>();
             container.RegisterType<IGenericRepository<StudentQueryModel>, StudentQueryRepository>();
             container.RegisterType<IGenericRepository<RoleQueryModel>, RoleQueryRepository>();
@@ -42,8 +40,8 @@ namespace MvcAppHelloWorld
             container.RegisterType<IGenericService<StudentQueryModel>, GenericService<StudentQueryModel>>();
             container.RegisterType<IGenericService<RoleQueryModel>, GenericService<RoleQueryModel>>();
 
-            container.RegisterType<IGenericAppService<HighSchoolViewModel, HighSchoolQueryViewModel>, GenericAppService<HighSchoolLearner, HighSchoolViewModel, HighSchoolQueryModel, HighSchoolQueryViewModel>>();
-            container.RegisterType<IGenericAppService<StudentViewModel, StudentQueryViewModel>, GenericAppService<StudentLearner, StudentViewModel, StudentQueryModel, StudentQueryViewModel>>();
+            container.RegisterType<IGenericAppService<HighSchoolViewModel, HighSchoolQueryViewModel>, HighSchoolAppService>();
+            container.RegisterType<IGenericAppService<StudentViewModel, StudentQueryViewModel>, StudentAppService>();
 
             var config = new MapperConfiguration(cfg =>
             {

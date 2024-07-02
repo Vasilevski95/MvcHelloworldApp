@@ -20,10 +20,12 @@ namespace _3_DataAccess.QueryRepository
 
         public override List<HighSchoolQueryModel> Search(string searchTerm)
         {
-            return GetAll().Where(s => s.Name.Contains(searchTerm) ||
-                                       s.Surname.Contains(searchTerm) ||
-                                       s.SchoolName.Contains(searchTerm) ||
-                                       s.DateOfEntry.ToString().Contains(searchTerm)).ToList();
+            var searchTermLower = searchTerm.ToLower();
+            return GetAll().Where(s => s.Name.ToLower().Contains(searchTermLower) ||
+                                       s.Surname.ToLower().Contains(searchTermLower) ||
+                                       s.SchoolName.ToLower().Contains(searchTermLower) ||
+                                       s.DateOfBirth.ToString("dd/MM/yyyy").ToLower().Contains(searchTermLower) ||
+                                       s.DateOfEntry.ToString("dd/MM/yyyy").ToLower().Contains(searchTermLower)).ToList();
         }
     }
 }

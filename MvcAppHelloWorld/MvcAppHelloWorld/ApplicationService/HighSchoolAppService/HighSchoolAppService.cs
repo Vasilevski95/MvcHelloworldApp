@@ -11,7 +11,7 @@ namespace MvcAppHelloWorld.ApplicationService.HighSchoolAppService
 {
     public class HighSchoolAppService : GenericAppService<HighSchoolLearner, HighSchoolViewModel, HighSchoolQueryModel, HighSchoolQueryViewModel>, IHighSchoolAppService
     {
-        public HighSchoolAppService(IGenericService<HighSchoolLearner> highSchoolService, 
+        public HighSchoolAppService(IGenericService<HighSchoolLearner> highSchoolService,
             IGenericService<HighSchoolQueryModel> queryService,
             IMapper mapper)
             : base(highSchoolService, queryService, mapper)

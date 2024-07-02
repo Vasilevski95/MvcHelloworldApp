@@ -1,7 +1,7 @@
 @model List<MvcAppHelloWorld.QueryViewModel.StudentQueryViewModel>
 
 @{
-ViewBag.Title = "Student Learners";
+    ViewBag.Title = "Student Learners";
 }
 
 <h2>Student Learners</h2>
@@ -12,34 +12,34 @@ ViewBag.Title = "Student Learners";
     </div>
     <button type="submit" class="btn btn-primary">Search</button>
 </form>
-<br/>
+<br />
 @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
 
 <table class="table">
     <thead>
-    <tr>
-        <th>Name</th>
-        <th>Surname</th>
-        <th>Date of birth</th>
-        <th>College name</th>
-        <th>Generation</th>
-        <th></th>
-    </tr>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Date of birth</th>
+            <th>College name</th>
+            <th>Generation</th>
+            <th></th>
+        </tr>
     </thead>
     <tbody>
-    @foreach (var learner in Model)
-    {
-    <tr>
-        <td>@learner.Name</td>
-        <td>@learner.Surname</td>
-        <td>@learner.DateOfBirth.ToString("dd/MM/yyyy")</td>
-        <td>@learner.CollegeName</td>
-        <td>@learner.Generation</td>
-        <td>
-            @Html.ActionLink("Details", "EditDetails", new { id = learner.UserId }, new { @class = "btn btn-info" })
-            @Html.ActionLink("Delete", "Delete", new { id = learner.UserId }, new { @class = "btn btn-danger" })
-        </td>
-    </tr>
-    }
+        @foreach (var learner in Model)
+        {
+            <tr>
+                <td>@learner.Name</td>
+                <td>@learner.Surname</td>
+                <td>@learner.DateOfBirth.ToString("dd/MM/yyyy")</td>
+                <td>@learner.CollegeName</td>
+                <td>@learner.Generation</td>
+                <td>
+                    @Html.ActionLink("Details", "Profile", new { id = learner.UserId }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Delete", "Delete", new { id = learner.UserId }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

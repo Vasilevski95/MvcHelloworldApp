@@ -115,6 +115,10 @@ C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloW
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\bin\Debug\Unity.Container.pdb
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\obj\Debug\2_BusinessLayer.csproj.AssemblyReference.cache
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\obj\Debug\2_BusinessLayer.csproj.CoreCompileInputs.cache
-C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\obj\Debug\2_BusinessLayer.csproj.CopyComplete
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\obj\Debug\2_Busine.0A43CB86.Up2Date
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\BusinessLayer\bin\Debug\Microsoft.AspNet.Identity.Core.xml

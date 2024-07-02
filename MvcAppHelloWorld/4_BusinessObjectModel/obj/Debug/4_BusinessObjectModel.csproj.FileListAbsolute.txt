@@ -97,6 +97,10 @@ C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloW
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Unity.Container.pdb
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.AssemblyReference.cache
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.CoreCompileInputs.cache
-C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.csproj.CopyComplete
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_BusinessObjectModel.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\obj\Debug\4_Busine.209E69F9.Up2Date
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Newtonsoft.Json.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Newtonsoft.Json.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\4_BusinessObjectModel\bin\Debug\Microsoft.AspNet.Identity.Core.xml
