@@ -56,7 +56,8 @@ namespace _3_DataAccess.Generic
 
         public virtual TEntity GetById(Guid id)
         {
-            return DbSet.Find(id);
+            var entity = _context.Users.Find(id);
+            return entity as TEntity;
         }
 
         public virtual List<TEntity> GetAll()

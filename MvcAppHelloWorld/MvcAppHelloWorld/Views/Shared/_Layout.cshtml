@@ -20,12 +20,27 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                                      @*Text      Action    Controller*@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("High school", "Index", "HighSchool")</li>
-                    <li>@Html.ActionLink("Student", "Index", "Student")</li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        var role = Session["UserRole"] as string;
+                        if (role == "HighSchoolLearner")
+                        {
+                            <li>@Html.ActionLink("Highschoolers", "Index", "HighSchool")</li>
+                        }
+                        else if (role == "StudentLearner")
+                        {
+                            <li>@Html.ActionLink("Students", "Index", "Student")</li>
+                        }
+                        @Html.Partial("_UserProfile")
+                        <li>@Html.ActionLink("Logout", "Logout", "Login")</li>
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("Login", "Index", "Login")</li>
+                    }
                 </ul>
             </div>
         </div>

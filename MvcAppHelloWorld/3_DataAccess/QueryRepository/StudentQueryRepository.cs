@@ -7,9 +7,7 @@ namespace _3_DataAccess.QueryRepository
 {
     public class StudentQueryRepository : GenericRepository<StudentQueryModel>
     {
-        public StudentQueryRepository(TuxContext context) : base(context)
-        {
-        }
+        public StudentQueryRepository(TuxContext context) : base(context) { }
 
         public override List<StudentQueryModel> GetAll()
         {
@@ -23,10 +21,12 @@ namespace _3_DataAccess.QueryRepository
 
         public override List<StudentQueryModel> Search(string searchTerm)
         {
-            return GetAll().Where(s => s.Name.Contains(searchTerm) ||
-                                       s.Surname.Contains(searchTerm) ||
-                                       s.CollegeName.Contains(searchTerm) ||
-                                       s.Generation.ToString().Contains(searchTerm)).ToList();
+            var searchTermLower = searchTerm.ToLower();
+            return GetAll().Where(s => s.Name.ToLower().Contains(searchTermLower) ||
+                                       s.Surname.ToLower().Contains(searchTermLower) ||
+                                       s.CollegeName.ToLower().Contains(searchTermLower) ||
+                                       s.Generation.ToString().Contains(searchTermLower) ||
+                                       s.DateOfBirth.ToString("dd/MM/yyyy").ToLower().Contains(searchTermLower)).ToList();
         }
     }
 }

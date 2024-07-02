@@ -106,6 +106,10 @@ C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloW
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\bin\Debug\Unity.Container.pdb
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\obj\Debug\3_DataAccess.csproj.AssemblyReference.cache
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\obj\Debug\3_DataAccess.csproj.CoreCompileInputs.cache
-C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\obj\Debug\3_DataAccess.csproj.CopyComplete
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\obj\Debug\3_DataAccess.dll
 C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\obj\Debug\3_DataAccess.pdb
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\obj\Debug\3_DataAc.1F911C9E.Up2Date
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Work\Tekstualni fajlovi\TIME TO LEARN\ZADATAK\MvcAppHelloWorld 1\MvcAppHelloWorld\3_DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.xml

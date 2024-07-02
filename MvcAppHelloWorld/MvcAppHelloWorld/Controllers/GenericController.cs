@@ -1,12 +1,15 @@
 using System;
+using System.Linq;
 using System.Web.Mvc;
 using MvcAppHelloWorld.ApplicationService.Generic;
+using MvcAppHelloWorld.QueryViewModel;
+using MvcAppHelloWorld.ViewModels;
 
 namespace MvcAppHelloWorld.Controllers
 {
     public class GenericController<TViewModel, TQueryViewModel> : Controller
-        where TViewModel : class
-        where TQueryViewModel : class
+    where TViewModel : class
+    where TQueryViewModel : class
     {
         private readonly IGenericAppService<TViewModel, TQueryViewModel> _appService;
 
@@ -36,6 +39,7 @@ namespace MvcAppHelloWorld.Controllers
         public ActionResult Create(TViewModel viewModel)
         {
             if (!ModelState.IsValid) return View(viewModel);
+
             _appService.Add(viewModel);
             return RedirectToAction("Index");
         }
@@ -57,32 +61,43 @@ namespace MvcAppHelloWorld.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult EditDetails(Guid id, bool edit = false)
+        public ActionResult Profile(Guid id, bool isProfile = false, bool edit = false)
         {
-            var item = _appService.GetById(id);
-            if (item == null)
+            var viewModel = _appService.GetById(id);
+
+            if (viewModel == null)
             {
                 return HttpNotFound();
             }
 
             ViewBag.Edit = edit;
-            ViewBag.ReadOnly = !edit;
-            return View(item);
+            ViewBag.IsProfile = isProfile;
+
+            return View(viewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Save(TViewModel viewModel)
+        public ActionResult Save(TViewModel viewModel, bool isProfile = false)
         {
             if (!ModelState.IsValid)
             {
                 ViewBag.Edit = true;
                 ViewBag.ReadOnly = false;
-                return View("EditDetails", viewModel);
+                ViewBag.IsProfile = isProfile;
+                return View("Profile", viewModel);
             }
 
             _appService.Update(viewModel);
-            return RedirectToAction("EditDetails", new { id = (viewModel as dynamic).Id });
+
+            if (isProfile)
+            {
+                return RedirectToAction("Profile", new { id = (viewModel as dynamic).Id, isProfile = true });
+            }
+            else
+            {
+                return RedirectToAction("Profile", new { id = (viewModel as dynamic).Id });
+            }
         }
 
         public ActionResult DownloadDetails(Guid id)
@@ -92,9 +107,9 @@ namespace MvcAppHelloWorld.Controllers
             {
                 return HttpNotFound();
             }
-            
+
             var content = _appService.GenerateDetailsContent(item);
-            
+
             var byteArray = System.Text.Encoding.UTF8.GetBytes(content);
             var stream = new System.IO.MemoryStream(byteArray);
 

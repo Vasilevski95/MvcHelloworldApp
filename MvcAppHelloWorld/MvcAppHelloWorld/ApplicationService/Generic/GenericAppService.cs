@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Web.UI.WebControls;
 using AutoMapper;
 using BusinessLayer.Base;
 
@@ -61,6 +62,7 @@ namespace MvcAppHelloWorld.ApplicationService.Generic
 
         public virtual string GenerateDetailsContent(TViewModel viewModel)
         {
+            System.Diagnostics.Debug.WriteLine($"view model: {viewModel}");
             return string.Empty;
         }
     }
