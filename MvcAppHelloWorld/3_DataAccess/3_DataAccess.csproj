@@ -102,12 +102,16 @@
     <Compile Include="Generic\IGenericRepository.cs" />
     <Compile Include="HighSchool\HighSchoolLearnerRepository.cs" />
     <Compile Include="HighSchool\IHighSchoolLearnerRepository.cs" />
+    <Compile Include="Professor\IProfessorRepository.cs" />
+    <Compile Include="Professor\ProfessorRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryModels\HighSchoolQueryModel.cs" />
+    <Compile Include="QueryModels\ProfessorQueryModel.cs" />
     <Compile Include="QueryModels\RoleQueryModel.cs" />
     <Compile Include="QueryModels\StudentQueryModel.cs" />
     <Compile Include="QueryModels\UserQueryModel.cs" />
     <Compile Include="QueryRepository\HighSchoolQueryRepository.cs" />
+    <Compile Include="QueryRepository\ProfessorQueryRepository.cs" />
     <Compile Include="QueryRepository\RoleQueryRepository.cs" />
     <Compile Include="QueryRepository\StudentQueryRepository.cs" />
     <Compile Include="Student\IStudentLearnerRepository.cs" />

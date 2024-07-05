@@ -12,8 +12,10 @@ namespace MvcAppHelloWorld
         {
             CreateMap<HighSchoolLearner, HighSchoolViewModel>().ReverseMap();
             CreateMap<StudentLearner, StudentViewModel>().ReverseMap();
+            CreateMap<ProfessorModel, ProfessorViewModel>().ReverseMap();
             CreateMap<HighSchoolQueryModel, HighSchoolQueryViewModel>().ReverseMap();
             CreateMap<StudentQueryModel, StudentQueryViewModel>().ReverseMap();
+            CreateMap<ProfessorQueryModel, ProfessorQueryViewModel>().ReverseMap();
             CreateMap<RoleQueryModel, RoleQueryViewModel>().ReverseMap();
         }
     }

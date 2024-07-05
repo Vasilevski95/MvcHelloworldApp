@@ -113,7 +113,7 @@ namespace MvcAppHelloWorld.Controllers
             var byteArray = System.Text.Encoding.UTF8.GetBytes(content);
             var stream = new System.IO.MemoryStream(byteArray);
 
-            return File(stream, "text/plain", $"{((dynamic)item).Name} details.txt");
+            return File(stream, "text/plain", $"{((dynamic)item).Name} {((dynamic)item).Surname}'s details.txt");
         }
     }
 }

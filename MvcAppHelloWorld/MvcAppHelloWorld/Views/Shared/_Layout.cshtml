@@ -34,12 +34,18 @@
                         {
                             <li>@Html.ActionLink("Students", "Index", "Student")</li>
                         }
+                        else if (role == "Professor")
+                        {
+                            <li>@Html.ActionLink("Professors", "Index", "Professor")</li>
+                            <li>@Html.ActionLink("Highschoolers", "Index", "HighSchool")</li>
+                            <li>@Html.ActionLink("Students", "Index", "Student")</li>
+                        }
                         @Html.Partial("_UserProfile")
                         <li>@Html.ActionLink("Logout", "Logout", "Login")</li>
                     }
                     else
                     {
-                        <li>@Html.ActionLink("Login", "Index", "Login")</li>
+                        <li>@Html.ActionLink("Login", "Login", "Login")</li>
                     }
                 </ul>
             </div>
