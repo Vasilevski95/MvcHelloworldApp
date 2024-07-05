@@ -1,0 +1,167 @@
+@model MvcAppHelloWorld.ViewModels.HighSchoolViewModel
+
+@{
+    var isEdit = ViewBag.Edit as bool? ?? false;
+    var isProfile = ViewBag.IsProfile as bool? ?? false;
+}
+
+<h2>@(isProfile ? "User Profile" : "User Details")</h2>
+
+@using (Html.BeginForm("Save", "Highschool", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.Id)
+    @Html.Hidden("isProfile", isProfile)
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (isEdit)
+                {
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                }
+                else
+                {
+                    <p class="form-control-static">@Html.DisplayFor(model => model.Name)</p>
+                }
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Surname, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (isEdit)
+                {
+                    @Html.EditorFor(model => model.Surname, new { htmlAttributes = new { @class = "form-control" } })
+                }
+                else
+                {
+                    <p class="form-control-static">@Html.DisplayFor(model => model.Surname)</p>
+                }
+                @Html.ValidationMessageFor(model => model.Surname, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DateOfBirth, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (isEdit)
+                {
+                    @Html.EditorFor(model => model.DateOfBirth, new { htmlAttributes = new { @class = "form-control", @type = "date", Value = Model.DateOfBirth.ToString("yyyy-MM-dd") } })
+                }
+                else
+                {
+                    <p class="form-control-static">@Html.DisplayFor(model => model.DateOfBirth)</p>
+                }
+                @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (isEdit)
+                {
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                }
+                else
+                {
+                    <p class="form-control-static">@Html.DisplayFor(model => model.Email)</p>
+                }
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @if (isEdit)
+        {
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", type = "password", Value = Model.Password } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        }
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (isEdit)
+                {
+                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                }
+                else
+                {
+                    <p class="form-control-static">@Html.DisplayFor(model => model.Phone)</p>
+                }
+                @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (isEdit)
+                {
+                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                }
+                else
+                {
+                    <p class="form-control-static">@Html.DisplayFor(model => model.Address)</p>
+                }
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SchoolName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (isEdit)
+                {
+                    @Html.EditorFor(model => model.SchoolName, new { htmlAttributes = new { @class = "form-control" } })
+                }
+                else
+                {
+                    <p class="form-control-static">@Html.DisplayFor(model => model.SchoolName)</p>
+                }
+                @Html.ValidationMessageFor(model => model.SchoolName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DateOfEntry, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (isEdit)
+                {
+                    @Html.EditorFor(model => model.DateOfEntry, new { htmlAttributes = new { @class = "form-control", @type = "date", Value = Model.DateOfEntry.ToString("yyyy-MM-dd") } })
+                }
+                else
+                {
+                    <p class="form-control-static">@Html.DisplayFor(model => model.DateOfEntry)</p>
+                }
+                @Html.ValidationMessageFor(model => model.DateOfEntry, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @if (isEdit)
+                {
+                    <input type="submit" value="Save" class="btn btn-default" />
+                    <a href="@Url.Action("Profile", new { id = Model.Id, edit = false, isProfile })" class="btn btn-default">Cancel</a>
+                }
+                else
+                {
+                    <a href="@Url.Action("Profile", new { id = Model.Id, edit = true, isProfile })" class="btn btn-primary">Edit</a>
+                    if (!isProfile)
+                    {
+                        <a href="@Url.Action("Index")" class="btn btn-default">Back to List</a>
+                    }
+                    <a href="@Url.Action("DownloadDetails", new { id = Model.Id })" class="btn btn-info">Download Details</a>
+                }
+            </div>
+        </div>
+    </div>
+}
