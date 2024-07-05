@@ -17,6 +17,9 @@ using MvcAppHelloWorld.QueryViewModel;
 using MvcAppHelloWorld.ViewModels;
 using MvcAppHelloWorld.ApplicationService.HighSchoolAppService;
 using MvcAppHelloWorld.ApplicationService.StudentAppService;
+using MvcAppHelloWorld.ApplicationService.ProfessorAppService;
+using _3_DataAccess.Professor;
+using BusinessLayer.Professor;
 
 namespace MvcAppHelloWorld
 {
@@ -28,20 +31,23 @@ namespace MvcAppHelloWorld
 
             container.RegisterType<IGenericRepository<HighSchoolLearner>, HighSchoolLearnerRepository>();
             container.RegisterType<IGenericRepository<StudentLearner>, StudentLearnerRepository>();
+            container.RegisterType<IGenericRepository<ProfessorModel>, ProfessorRepository>();
 
             container.RegisterType<IGenericService<HighSchoolLearner>, HighSchoolService>();
             container.RegisterType<IGenericService<StudentLearner>, StudentService>();
+            container.RegisterType<IGenericService<ProfessorModel>, ProfessorService>();
 
             container.RegisterType<IGenericRepository<HighSchoolQueryModel>, HighSchoolQueryRepository>();
             container.RegisterType<IGenericRepository<StudentQueryModel>, StudentQueryRepository>();
-            container.RegisterType<IGenericRepository<RoleQueryModel>, RoleQueryRepository>();
+            container.RegisterType<IGenericRepository<ProfessorQueryModel>, ProfessorQueryRepository>();
 
             container.RegisterType<IGenericService<HighSchoolQueryModel>, GenericService<HighSchoolQueryModel>>();
             container.RegisterType<IGenericService<StudentQueryModel>, GenericService<StudentQueryModel>>();
-            container.RegisterType<IGenericService<RoleQueryModel>, GenericService<RoleQueryModel>>();
+            container.RegisterType<IGenericService<ProfessorQueryModel>, GenericService<ProfessorQueryModel>>();
 
             container.RegisterType<IGenericAppService<HighSchoolViewModel, HighSchoolQueryViewModel>, HighSchoolAppService>();
             container.RegisterType<IGenericAppService<StudentViewModel, StudentQueryViewModel>, StudentAppService>();
+            container.RegisterType<IGenericAppService<ProfessorViewModel, ProfessorQueryViewModel>, ProfessorAppService>();
 
             var config = new MapperConfiguration(cfg =>
             {

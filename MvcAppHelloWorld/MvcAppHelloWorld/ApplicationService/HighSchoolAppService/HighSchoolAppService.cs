@@ -27,7 +27,7 @@ namespace MvcAppHelloWorld.ApplicationService.HighSchoolAppService
                    $"Phone: {item.Phone}\n" +
                    $"Address: {item.Address}\n" +
                    $"School Name: {item.SchoolName}\n" +
-                   $"Date of Entry: {item.DateOfEntry:dd/MM/yyyy}\n";
+                   $"Date of Entry: {item.DateOfEntry:dd/MM/yyyy}";
         }
     }
 }

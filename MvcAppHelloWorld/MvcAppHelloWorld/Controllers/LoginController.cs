@@ -52,15 +52,20 @@ namespace MvcAppHelloWorld.Controllers
                         user.LastLogin = DateTime.Now;
                         _context.SaveChanges();
 
-                        Session["UserRole"] = roles.Contains("HighSchoolLearner") ? "HighSchoolLearner" : "StudentLearner";
-
                         if (roles.Contains("HighSchoolLearner"))
                         {
+                            Session["UserRole"] = "HighSchoolLearner";
                             return RedirectToAction("Index", "HighSchool");
                         }
                         else if (roles.Contains("StudentLearner"))
                         {
+                            Session["UserRole"] = "StudentLearner";
                             return RedirectToAction("Index", "Student");
+                        }
+                        else if (roles.Contains("Professor"))
+                        {
+                            Session["UserRole"] = "Professor";
+                            return RedirectToAction("Index", "Professor");
                         }
                     }
                     else

@@ -100,6 +100,8 @@
     <Compile Include="Generic\IGenericService.cs" />
     <Compile Include="HighSchool\HighSchoolService.cs" />
     <Compile Include="HighSchool\IHighSchoolService.cs" />
+    <Compile Include="Professor\IProfessorService.cs" />
+    <Compile Include="Professor\ProfessorService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student\IStudentService.cs" />
     <Compile Include="Student\StudentService.cs" />

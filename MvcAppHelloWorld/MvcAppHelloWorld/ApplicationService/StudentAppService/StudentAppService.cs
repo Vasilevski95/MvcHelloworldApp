@@ -24,7 +24,7 @@ namespace MvcAppHelloWorld.ApplicationService.StudentAppService
                    $"Phone: {item.Phone}\n" +
                    $"Address: {item.Address}\n" +
                    $"College Name: {item.CollegeName}\n" +
-                   $"Generation: {item.Generation}\n";
+                   $"Generation: {item.Generation}";
         }
     }
 }

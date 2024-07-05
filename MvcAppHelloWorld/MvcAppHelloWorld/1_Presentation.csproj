@@ -153,6 +153,8 @@
     <Compile Include="ApplicationService\Generic\IGenericAppService.cs" />
     <Compile Include="ApplicationService\HighSchoolAppService\HighSchoolAppService.cs" />
     <Compile Include="ApplicationService\HighSchoolAppService\IHighSchoolAppService.cs" />
+    <Compile Include="ApplicationService\ProfessorAppService\IProfessorAppService.cs" />
+    <Compile Include="ApplicationService\ProfessorAppService\ProfessorAppService.cs" />
     <Compile Include="ApplicationService\StudentAppService\IStudentAppService.cs" />
     <Compile Include="ApplicationService\StudentAppService\StudentAppService.cs" />
     <Compile Include="App_Start\AutomappingProfile.cs" />
@@ -164,17 +166,20 @@
     <Compile Include="Controllers\HighSchoolController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ProfessorController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryViewModels\HighSchoolQueryViewModel.cs" />
+    <Compile Include="QueryViewModels\ProfessorQueryViewModel.cs" />
     <Compile Include="QueryViewModels\RoleQueryViewModel.cs" />
     <Compile Include="QueryViewModels\StudentQueryViewModel.cs" />
     <Compile Include="QueryViewModels\UsersQueryViewModel.cs" />
     <Compile Include="ViewModels\HighSchoolViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\ProfessorViewModel.cs" />
     <Compile Include="ViewModels\StudentViewModel.cs" />
     <Compile Include="ViewModels\UserViewModel.cs" />
     <Content Include="Views\Login\Login.cshtml" />
@@ -224,6 +229,10 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_UserProfile.cshtml" />
+    <Content Include="Views\Professor\Index.cshtml" />
+    <Content Include="Views\Professor\Create.cshtml" />
+    <Content Include="Views\Professor\Delete.cshtml" />
+    <Content Include="Views\Professor\Profile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ApplicationService\Base\" />
