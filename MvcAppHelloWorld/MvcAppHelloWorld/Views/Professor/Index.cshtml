@@ -1,0 +1,45 @@
+@model List<MvcAppHelloWorld.QueryViewModel.ProfessorQueryViewModel>
+
+@{
+    ViewBag.Title = "Professors";
+}
+
+<h2>Professors</h2>
+
+<form method="get" action="@Url.Action("Search", "Professor")" class="form-inline">
+    <div class="form-group">
+        <input type="text" name="searchTerm" placeholder="Search by name or subject" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+<br />
+@Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Date of birth</th>
+            <th>Class subject</th>
+            <th>Cabinet</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var professor in Model)
+        {
+            <tr>
+                <td>@professor.Name</td>
+                <td>@professor.Surname</td>
+                <td>@professor.DateOfBirth.ToString("dd/MM/yyyy")</td>
+                <td>@professor.ClassSubject</td>
+                <td>@professor.Cabinet</td>
+                <td>
+                    @Html.ActionLink("Details", "Profile", new { id = professor.UserId }, new { @class = "btn btn-info" })
+                    @Html.ActionLink("Delete", "Delete", new { id = professor.UserId }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

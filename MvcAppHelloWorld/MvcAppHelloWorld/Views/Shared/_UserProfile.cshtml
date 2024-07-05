@@ -1,0 +1,40 @@
+@using System.Web.Security
+@using _3_DataAccess
+@using _4_BusinessObjectModel
+
+@{
+    var userEmail = User.Identity.Name;
+    var context = new TuxContext();
+    var user = context.Users.Include("UserRoles.Role").FirstOrDefault(u => u.Email == userEmail);
+    string role = null;
+
+    if (user != null)
+    {
+        role = user.UserRoles.FirstOrDefault()?.Role.RoleName;
+        ViewBag.UserRole = role;
+    }
+}
+
+@if (user != null && !string.IsNullOrEmpty(role))
+{
+    <li>
+        @Html.ActionLink("Profile", "Profile", new { id = user.Id, controller = GetRoleController(role), isProfile = true })
+    </li>
+}
+
+@functions {
+    private string GetRoleController(string role)
+    {
+        switch (role)
+        {
+            case "HighSchoolLearner":
+                return "HighSchool";
+            case "StudentLearner":
+                return "Student";
+            case "Professor":
+                return "Professor";
+            default:
+                return "Home";
+        }
+    }
+}
